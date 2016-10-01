@@ -1,0 +1,10 @@
+{
+    "require": {
+        "apache/log4php": "~2.3"
+    },
+    "autoload": {
+        "classmap": [
+            "vendor/apache/log4php/src/main/php"
+        ]
+    }
+}
