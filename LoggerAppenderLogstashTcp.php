@@ -1,5 +1,4 @@
 <?php
-namespace app\core\log;
 
 class LoggerAppenderLogstashTcp extends \LoggerAppender
 {
