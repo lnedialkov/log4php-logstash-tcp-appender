@@ -13,7 +13,7 @@ log4php appender class for the logstash tcp input plugin
     ],
     'appenders' => [
         'logstash_tcp' => [
-            'class' => '\app\core\log\LoggerAppenderLogstashTcp',
+            'class' => 'LoggerAppenderLogstashTcp',
             'params' => [
                 'host' => 'tcp://127.0.0.1',
                 'port' => 5555,
